@@ -1,9 +1,7 @@
-*{
-    margin: 0 auto;
-    padding: 0px;
-}
 
+    
 .barra {
+    flex-direction: column;
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -12,7 +10,6 @@
     border-radius: 10px;
     margin: 20px;
 }
-
 .logo {
     display: flex;
     align-items: center;
@@ -26,4 +23,9 @@
 .enlaces {
     display: flex;
     gap: 15px;
+}
+@media (max-width: 769px){
+    .barra{
+        flex-direction: column;
+    }
 }
