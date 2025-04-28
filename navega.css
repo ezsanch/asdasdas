@@ -1,0 +1,29 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imagen {
+    height: 60px;
+}
+
+.enlaces {
+    display: flex;
+    gap: 15px;
+}
